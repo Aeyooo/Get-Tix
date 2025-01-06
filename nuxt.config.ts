@@ -6,9 +6,11 @@ export default defineNuxtConfig({
     '@nuxtjs/supabase',
     '@nuxt/image',
     '@nuxt/ui',
-    'nuxt-icon',
     '@vueuse/nuxt'
   ],
+  colorMode: {
+    preference: 'light'
+  },
   supabase: {
     redirect: false
     }
